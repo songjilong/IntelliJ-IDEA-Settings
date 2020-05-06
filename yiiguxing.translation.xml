@@ -1,0 +1,65 @@
+<application>
+  <component name="AppStorage">
+    <histories>
+      <item value="learning" />
+      <item value="LOL" />
+      <item value="体育" />
+      <item value="频道" />
+      <item value="订阅" />
+      <item value="通知" />
+      <item value="content" />
+      <item value="新闻" />
+      <item value="observer" />
+      <item value="自定义" />
+      <item value="Customer" />
+      <item value="Semaphore" />
+      <item value="Cyclic Barrier" />
+      <item value="问答" />
+      <item value="Sms" />
+      <item value="Reentrant" />
+      <item value="signal" />
+      <item value="Wakes up all waiting threads. * * &lt;p&gt;If any threads are waiting on this condition then they are * all woken up. Each thread must re-acquire the lock before it can * return from {@code await}. * * &lt;p&gt;&lt;b&gt;Implementation Considerations&lt;/b&gt; * * &lt;p&gt;An implementation may (and typically does) require that the * current thread hold the lock associated with this {@code * Condition} when this method is called. Implementations must * document this precondition and any actions taken if the lock is * not held. Typically, an exception such as {@link * IllegalMonitorStateException} will be thrown." />
+      <item value="The iterators returned by this class's {@link #iterator() iterator} and * {@link #listIterator(int) listIterator} methods are &lt;em&gt;fail-fast&lt;/em&gt;:&lt;/a&gt; * if the list is structurally modified at any time after the iterator is * created, in any way except through the iterator's own" />
+      <item value="i am provider8001" />
+      <item value="风扇" />
+      <item value="电风扇" />
+      <item value="电灯" />
+      <item value="玛丽亚" />
+      <item value="马蕊" />
+      <item value="research" />
+      <item value="研究" />
+      <item value="科研" />
+      <item value="Grade" />
+      <item value="score" />
+      <item value="分数" />
+      <item value="Grade Judge" />
+      <item value="visitor" />
+      <item value="visiter" />
+      <item value="访问者" />
+      <item value="off" />
+      <item value="onoff" />
+      <item value="on" />
+      <item value="验证码" />
+      <item value="y" />
+      <item value="Captcha" />
+      <item value="Action: Correct the classpath of your application so that it contains a single, compatible version of reactor.netty.resources.ConnectionProvider" />
+      <item value="It was loaded from the following location: file:/D:/developer_tools/maven_repository/io/projectreactor/netty/reactor-netty/0.9.2.RELEASE/reactor-netty-0.9.2.RELEASE.jar" />
+      <item value="The method's class, reactor.netty.resources.ConnectionProvider, is available from the following locations: jar:file:/D:/developer_tools/maven_repository/io/projectreactor/netty/reactor-netty/0.9.2.RELEASE/reactor-netty-0.9.2.RELEASE.jar!/reactor/netty/resources/ConnectionProvider.class" />
+      <item value="The following method did not exist: reactor.netty.resources.ConnectionProvider.elastic(Ljava/lang/String;Ljava/time/Duration;Ljava/time/Duration;)Lreactor/netty/resources/ConnectionProvider;" />
+      <item value="An attempt was made to call a method that does not exist. The attempt was made from the following location: org.springframework.cloud.gateway.config.GatewayAutoConfiguration$NettyConfiguration.gatewayHttpClient(GatewayAutoConfiguration.java:612)" />
+      <item value="org.springframework.cloud.gateway.config.GatewayAutoConfiguration$NettyConfiguration.gatewayHttpClient(GatewayAutoConfiguration.java:612) The following method did not exist:" />
+      <item value="An attempt was made to call a method that does not exist. The attempt was made from the following location:" />
+      <item value="It was loaded from the following location:" />
+      <item value="Percentage" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="146" />
+        <entry key="ENGLISH" value="146" />
+        <entry key="BULGARIAN" value="1" />
+        <entry key="SPANISH" value="1" />
+        <entry key="INDONESIAN" value="2" />
+      </map>
+    </option>
+  </component>
+</application>

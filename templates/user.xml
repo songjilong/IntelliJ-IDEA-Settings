@@ -1,0 +1,50 @@
+<templateSet group="user">
+  <template name="bootmain" value="public static void main(String[] args){&#10;    SpringApplication.run($CLASS_NAME$.class, args);&#10;}" description="springboot启动类" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="currname" value="Thread.currentThread().getName()" description="获取线程名" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="myTest" value="@Test&#10;public void test$name$(){&#10;    &#10;}" description="单元测试" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="mythread01" value="new Thread(new Runnable() {&#10;    @Override&#10;    public void run() {&#10;        &#10;    }&#10;}, &quot;$ThreadName$&quot;).start();" description="普通方式创建线程" toReformat="false" toShortenFQNames="true">
+    <variable name="ThreadName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="mythread02" value="new Thread(() -&gt; {$content$}, &quot;$ThreadName$&quot;).start();" description="Lambda方式创建线程" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ThreadName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="trylock" value="$LockName$.lock();&#10;try {&#10;    &#10;} catch (Exception e) {&#10;    e.printStackTrace();&#10;} finally {&#10;    $LockName$.unlock();&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="LockName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tsleep" value="try { TimeUnit.SECONDS.sleep($number$); } catch (InterruptedException e) { e.printStackTrace(); }" description="睡眠" toReformat="false" toShortenFQNames="true">
+    <variable name="number" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tsleepmilli" value="try { TimeUnit.MILLISECONDS.sleep($MILLISECONDS$); } catch (InterruptedException e) { e.printStackTrace(); }" description="睡眠（毫秒）" toReformat="false" toShortenFQNames="true">
+    <variable name="MILLISECONDS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

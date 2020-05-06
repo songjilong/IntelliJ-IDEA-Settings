@@ -1,0 +1,12 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="demo1" type="JAVA" />
+      <mapping pattern="a" type="PLAIN_TEXT" />
+      <mapping pattern="1" type="PLAIN_TEXT" />
+      <mapping pattern="SqlMapConfig" type="XML" />
+      <mapping pattern="sqlMapConfig" type="XML" />
+      <mapping pattern="mybatis-config" type="XML" />
+    </extensionMap>
+  </component>
+</application>

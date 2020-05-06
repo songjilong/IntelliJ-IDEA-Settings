@@ -1,0 +1,9 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://mybatis.org/dtd/mybatis-3-mapper.dtd" location="$USER_HOME$/.IntelliJIdea2019.1/system/extResources/b36fadae_mybatis-3-mapper.dtd.xml" />
+    <resource url="http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" location="$USER_HOME$/.IntelliJIdea2019.3/system/extResources/cf63db72_mybatis-generator-config_1_0.dtd" />
+    <ignored-resource url="http://java.sun.com/jsp/jstl/core" />
+    <ignored-resource url="http://java.sun.com/jsp/jstl/fmt" />
+    <ignored-resource url="http://mybatis.org/dtd/mybatis-3-mapper.dtd" />
+  </component>
+</application>
